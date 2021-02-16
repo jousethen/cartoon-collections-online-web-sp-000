@@ -33,4 +33,6 @@ def find_the_cheese(ingredients)
      cheese_found = nil
    end
   end
+  
+  return cheese_found
 end
