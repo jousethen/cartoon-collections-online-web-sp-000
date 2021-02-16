@@ -28,8 +28,8 @@ def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   ingredients.each do |ingredient|
-    binding.pry
     if cheese_types.include(ingredient)
+      binding.pry
      cheese_found = ingredient
      break
     else 
