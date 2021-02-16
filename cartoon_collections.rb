@@ -28,9 +28,12 @@ def find_the_cheese(ingredients)
   
   ingredients.each do |ingredient|
     if cheese_types.include(ingredient)
-     return ingredient
+     cheese_found = ingredient
+     break
+    else 
+     cheese_found = nil
     end
   end
   
-  return nil
+  return cheese_found
 end
