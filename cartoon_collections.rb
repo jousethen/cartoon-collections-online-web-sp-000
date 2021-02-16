@@ -26,12 +26,12 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  binding.pry
   ingredients.each do |ingredient|
     if cheese_types.include(ingredient)
      cheese_found = ingredient
      break
     else 
+      binding.pry
      cheese_found = nil
     end
   end
