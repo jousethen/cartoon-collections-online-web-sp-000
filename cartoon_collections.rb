@@ -7,7 +7,8 @@ end
 
 def summon_captain_planet(elems)
   elems.collect do |elem|
-    elem.to_
+    elem.capitalize
+    "#{elem}!"
   end
 end
 
