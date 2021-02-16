@@ -29,6 +29,7 @@ def find_the_cheese(ingredients)
   ingredients.each do |ingredient|
     if cheese_types.include?(ingredient)
      cheese_found = ingredient
+     binding.pry
      break
     else 
      cheese_found = nil
